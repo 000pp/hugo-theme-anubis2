@@ -316,8 +316,9 @@ blockquote {
 }
 
 p {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
 }
 
 hr {
@@ -706,6 +707,8 @@ article img {
     display: block;
     height: auto;
     margin: 0 auto .5em;
+    border-radius: 5px;
+    border: 2px solid rgb(231, 231, 231);
 }
 
 article figcaption {
@@ -974,4 +977,8 @@ ul.footer-menu>li {
     .post-pagination .pagination-item {
         max-width: 10em;
     }
+}
+
+div .content {
+    text-align: justify;
 }
